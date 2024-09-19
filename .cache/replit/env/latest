@@ -1,0 +1,54 @@
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-23_11:/home/runner/.nix-defexpr/channels
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx REPL_IDENTITY=v2.public.Q2lSallUZzROamcxWXkxa01qZzJMVFExTmpVdFlXSTROeTFrTkRBMlpqQTVZakZpTkRBU0MxTmhiWEpwWkdoNVlUQXhHZ2xNYjNabExWUnlaV1VpSkdOaE9EZzJPRFZqTFdReU9EWXRORFUyTlMxaFlqZzNMV1EwTURabU1EbGlNV0kwTURqVnkvUUpXaFFLQlhOcGMydHZFZ3RwYm5SbGNtRmpkR2wyWlE9PVNY65KzA-CJ1NfDcwBW3pfNl0z9GRS-ravEl2b9h4zWFGfUarlsQnmN0rrBlmihxmhuRHa77FJACtHxslndcw4.R0FFaUJtTnZibTFoYmhLUkNIWXlMbkIxWW14cFl5NVJNbVI2VTFod01GVXpRakJrTVd4U1RucHNiVmxYV2pSVFZYaEVVMnBPUzJNeVNtcFNNRlpOVTBkSmVXSnFhR2hSVjJodVVtdGtjRmRWZEV0U01EVnZWREJTYmsxck9VVldiWEJOVmpGR05WUXdVbHBrUlRWRlZsUktUMVY2Um05WFYzQnVUVEI0V0ZWVVFrNVNSbkIwVkZWU2MyRlZNVmhUVkVKT1VXMDVUMUpYWkRCV1JteFlUVmhzYUZZeFNuWmFWbVJHWkRBeFUySXdXbEJVYkdoTlQxVkdjbGxWU2pWVFZWcHFUVzE0TmxsVVNUUlpWVkpVWWpCNGFGWjZWWGRYYkdoTFlVWnJlbFZ1UW10aVZsWndWR3hrZW1WVmVIVlJha1phWWxob2QxZFlhekZoVjFGNVZXczVXR0pXY0hSYVJXaExUVVpLY2sxV1dsZGhhM0JhVlcxemQyVlhSWGRVYm14VlZqSm9WMXBHV2t0TmJHeFdZa2h3VmxaV1duUlhWekYzVGtkT2NtVkhiR3RTVjNneWQxOVFZWE0yZDFwSlRWTkhkMDFDTW1KWFpXTktSamhyVDBRNU1YQldkMlV6Wm5kSExUZFplbFZoWjFoUWRYRnJSRmRoYkdkdFJWWjZNSGd5YnpKNVVVNUpPRFJITlZGaVVHcE9kbFE1UjNwUk5VNWhRVUV1VWpCR1JtRlZTblJVYmxwcFlsUkdiMWx0YUUxWmEwWjFWMWhzVFdKclNYaFhWekUwWTBac05VNVdTazVpVmtreVZsUkdhMDFIVm5SVGJGcFVZbTVDVjFadE1UUlZNVkp5VlcxR1RsWnVRbGRWTW5SUFZrWmFXV0ZGVmxabGEwcHlWV3BCTVZOV1JuSlRiRnBPVW14d1UxWnRjRTlaVjFKWFlqTm9VMkpYYUZOV2FrcHZaRlpXV0dSSGRHbGlSVFZZV1d0V1QxWnRTbFZpUlZaV1lXdEtTRnBIZUhOV2JFcDFVbXhLVjFaWVFrcFdNbkJEWXpGa2MxSnNhR2hUUm5CVFZGVmtVMUV4V2tkYVJXUlNZbFZhU1ZkclZYaFZNREYwVld0MFYwMVdXbFJWVkVwS1pERlNjbUZHU2xkaE1YQjJWbFphYTJJeVNuTlVia3BwVTBWYVdGbHRkSGRVTVd4WFZXeGtUazFZUWtoWGExWXdZV3N4Y2xkc2JGZFNiV2hZVmtSR1lXUkhWa2xqUm1SWFlsWktTVlpHVWt0VU1rMTVVMnBhVm1GNmJGaFVWM2hMWWpGWmVVMVVVbFJOYTFwSFZGWldhMVpIU2taWGJGcGFWbnBGTUZkV1duTk9iRVpWVW0xd2FWSllRalpXUkVaWFdWZEZlVk5zYkZaV1JWcFhXV3RhWVdOc2NFaGxSVnBzVW01Q1JsWXlNWGRoUjBWNFkwYzVWMkZyV2xSVmVrWk9aVVphYzFOc1JsZFNSVW96VmpKMFlWZHRUblJqUlRGUVYwVTBlbHBGVmxwT1ZuQkZVbGhTYVdKVVZsRlVNR1JoVlcxS1dHRkVTbFJTVm5CNFZtdFdjbVJIVWtWaFJYQnBZbFp3VVZkRVNYaFdWVEYwV1hwU2FsZElRa1pWYTJSV1RrWmFSV0pHVW1oTlZrbzJWMjE0YjJKWFZuSmlla0pZVmxVeE5sZHRjM2RsYkdSV1RsaEtWRlpIVWxsWFYydDNUbFpLY2xWdE9VOWhWRVpNVkdwSk5WSkZlSE5UV0dSVFlURndiMVpzVm5kTlJscElUbGRHYUZZd2NGWlZiVEExVjIxS1dGVnFTbFpoYTNCUVZURmFUMlJXWkhSU2JFNVRaVzFuTUE9PQ
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3MjY3NTAyODUsImlhdCI6MTcyNjYzODY4NSwiZGF0YWJhc2VfaWQiOiJjYTg4Njg1Yy1kMjg2LTQ1NjUtYWI4Ny1kNDA2ZjA5YjFiNDAifQ.5kzp9G330CHfV5Z7kLSMkjuImXv8XgEkKJsHz4QxwlACOQmZI4tHl2t3KCYS-SdG8GmyhBJBObUBHqn-mV5zYA
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx XDG_CACHE_HOME=/home/runner/Love-Tree/.cache
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPL_LANGUAGE=html
+declare -gx REPL_HOME=/home/runner/Love-Tree
+declare -gx REPLIT_RTLD_LOADER=1
+read -r _new_path <<< "/nix/store/s71vlhlz1kmkix09xcdkia291dmvgcv3-pid1/bin:/nix/store/ky4aqzdmv0j0rrbw14hr0xmsrf0amssl-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/nix/store/s71vlhlz1kmkix09xcdkia291dmvgcv3-pid1/bin:/nix/store/ky4aqzdmv0j0rrbw14hr0xmsrf0amssl-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/mfrw2kh7ppd5qmjwm5sj9c41lkh2hlij-rippkgs-indices
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPL_OWNER_ID=20784597
+declare -gx DOCKER_CONFIG=/home/runner/Love-Tree/.config/docker
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx REPLIT_PID2_PLAYWRIGHT_BROWSERS_PATH=/nix/store/hm5xiamjywlv1p217kx5bkhzj793l0x6-playwright-browsers-chromium
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx DISPLAY=:0
+declare -gx REPLIT_NIX_CHANNEL=stable-23_11
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx XDG_DATA_HOME=/home/runner/Love-Tree/.local/share
+declare -gx COLORTERM=truecolor
+declare -gx REPLIT_CLI=/nix/store/0v5b1imsnb5jg5vq4garx8s56iw63pl5-pid1-0.0.1/bin/replit
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx REPLIT_BASHRC=/nix/store/sljr8697zka2mxn30fara6d362bqyaid-replit-bashrc/bashrc
+declare -gx LANG=en_US.UTF-8
+declare -gx REPLIT_PID1_VERSION=0.0.0-71bddfd
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx DENO_TLS_CA_STORE=system
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx REPL_OWNER=Samridhya01
+declare -gx REPLIT_SUBCLUSTER=interactive
+declare -gx HOME=/home/runner
+declare -gx USER=runner
+declare -gx REPL_SLUG=Love-Tree
+declare -gx REPLIT_CLUSTER=sisko
+declare -gx GIT_EDITOR=replit-git-editor
+declare -gx REPL_IDENTITY_KEY=k2.secret.ycUAjU4jQ8sRCnGRwUUVg2Z4V5mFV9-wnRU1RFALpRZvB01l9-2u0UxRXZcUzaQKsyFS5G9oixAR9uPGstu0ig
+declare -gx PROMPT_DIRTRIM=2
+declare -gx HOSTNAME=afe2bd387d52
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/share/glvnd/egl_vendor.d/50_mesa.json
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx REPL_ID=ca88685c-d286-4565-ab87-d406f09b1b40
+declare -gx REPLIT_DEV_DOMAIN=ca88685c-d286-4565-ab87-d406f09b1b40-00-2wkqkex48robi.sisko.replit.dev
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/lib/dri
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx XDG_CONFIG_HOME=/home/runner/Love-Tree/.config

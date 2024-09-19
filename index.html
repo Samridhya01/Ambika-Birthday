@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mr.Samrat and Miss. Ambika </title>
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="wrap">
+            <div id="words">
+                May the years is static good secular stability.
+            </div>
+            <div id="img">
+                <img id="we" src="./img/People.jpg" alt="" />
+            </div>
+
+            <div id="clock-box">
+                <div id="clock"></div>
+            </div>
+            <canvas id="canvas" width="1100" height="680"></canvas>
+        </div>
+        <div id="footer">
+            <center>
+		    by <a href="https://www.instagram.com/Samrat/">@Samrat XD</a>. Samridhya SanT <a href="https://github.com/samridhya01">@Github</a>. <br>
+            </center>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/words.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jscex.min.js"></script>
+    <script type="text/javascript" src="js/jscex-parser.js"></script>
+    <script type="text/javascript" src="js/jscex-jit.js"></script>
+    <script type="text/javascript" src="js/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="js/jscex-async.min.js"></script>
+    <script type="text/javascript" src="js/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="js/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/love.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/tree.js" charset="utf-8"></script>
+
+
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+	      var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+        (function() {
+	    var u="https://piwik.d0n9x1n.dev/";
+		    _paq.push(['sckerUrl', u+'matomo.php']);
+		    _ph(['setSiteId', '4']);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; matomo.js'; s.parentNode.insertBefore(g,s);
+		  })();
+    </script>
+    <noscri<img src="https://piwik.d0n9x1n.dev/matomo.php?idsite=4&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+
+        <audio id="backgroundMusic" loop>
+            <source src="./img/song.mp3" type="audio/mpeg">
+            <source src="./img/song.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <script>
+            document.addEventListener('click', function() {
+                var audio = document.getElementById('backgroundMusic');
+                if (audio.paused) {
+                    audio.play().catch(function(error) {
+                        console.error('Error playing audio:', error);
+                    });
+                }
+            });
+        </script>
+
+
+    <!-- End Matomo Code -->
+</body>
+
+</html>
