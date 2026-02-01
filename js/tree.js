@@ -98,7 +98,7 @@
     }));
     var clockAnimate = eval(Jscex.compile("async", function() {
         var together = new Date();
-        together.setFullYear(2003, 9, 19);
+        together.setFullYear(2005, 2, 12);
         together.setHours(22);
         together.setMinutes(0);
         together.setSeconds(0);
@@ -112,7 +112,7 @@
     var showPeopleAnimate = eval(Jscex.compile("async", function() {
         $("#we").fadeIn(5000);
     }));
-    var recipientName = "Ms.Ambika";
+    var recipientName = "Ms.Ananya";
     var senderName = "Mr.Samrat";
 
     var showTypewriterAnimate = eval(Jscex.compile("async", function() {

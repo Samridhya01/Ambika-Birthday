@@ -177,7 +177,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
-            ctx.fillText("To Ms. Ambika", 23, 10);
+            ctx.fillText("To Ms. Ananya", 23, 10);
             ctx.restore();
         },
         clear: function() {
